@@ -1,7 +1,7 @@
 import mysql.connector
 from mysql.connector import errorcode
 import tablas as t
-import inserts as i
+from inserciones import lista_inserciones
 
 DB_NAME = "ejerciciouno"
 
@@ -68,18 +68,17 @@ def create_database():
             print("OK")
 
 def inserts():
-
     cnx = create_conection()
     cursor = cnx.cursor()
     cursor.execute("USE {}".format(DB_NAME))
     cnx.database = DB_NAME
-    for j in range(len(i.inserts)):
-        cursor.execute(i.inserts[j],i.datas[j])
-        cnx.commit()
-    
+    for insercion in lista_inserciones:
+        sentencia = insercion.get('sentencia')
+        valores = insercion.get('valores')
+        cursor.execute(sentencia,valores)
+    cnx.commit()
     cursor.close()
     cnx.close()
         
 
-create_database()
-inserts()
+
