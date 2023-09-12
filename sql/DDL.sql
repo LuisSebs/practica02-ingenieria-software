@@ -1,0 +1,64 @@
+CREATE SCHEMA IF NOT EXISTS ejerciciouno;
+
+USE ejerciciouno;
+
+-- CREACION DE TABLAS
+
+-- Tabla Cliente
+CREATE TABLE IF NOT EXISTS Cliente(
+	ID INTEGER,
+	Nombre VARCHAR(255) NOT NULL,
+    Domicilio VARCHAR(255) NOT NULL,
+    Ciudad VARCHAR(255) NOT NULL,
+    Estado VARCHAR(255) NOT NULL,
+    CodigoPostal VARCHAR(5) NOT NULL,
+    Email VARCHAR(255) NOT NULL
+)ENGINE=InnoDB;
+ALTER TABLE Cliente
+ADD CONSTRAINT pk_Cliente
+PRIMARY KEY (ID);
+
+-- Tabla Producto
+CREATE TABLE IF NOT EXISTS Producto(
+	ID INTEGER,
+	Descripcion VARCHAR(255) NOT NULL,
+    Precio INTEGER NOT NULL,
+    Marca VARCHAR(255) NOT NULL,
+    Existencia BOOLEAN NOT NULL
+)ENGINE=InnoDB;
+ALTER TABLE Producto
+ADD CONSTRAINT pk_Producto
+PRIMARY KEY (ID);
+
+-- Tabla Proveedores
+CREATE TABLE IF NOT EXISTS Proveedor(
+	ID INTEGER,
+    Empresa VARCHAR(255) NOT NULL,
+    NombreContacto VARCHAR(255) NOT NULL,
+    Direccion VARCHAR(255) NOT NULL,
+    Ciudad VARCHAR(255) NOT NULL,
+    Estado VARCHAR(255) NOT NULL,
+    CodigoPostal VARCHAR(5) NOT NULL,
+    Email VARCHAR(255) NOT NULL
+)ENGINE=InnoDB;
+ALTER TABLE Proveedor
+ADD CONSTRAINT pk_proveedor
+PRIMARY KEY (ID);
+
+-- Tabla Pedidos
+CREATE TABLE IF NOT EXISTS Pedido(
+	ID INTEGER,
+    Vendedor VARCHAR(255) NOT NULL,
+    Fecha DATE NOT NULL,
+    Producto INTEGER NOT NULL,
+    Cantidad INTEGER NOT NULL,
+    Precio INTEGER NOT NULL,
+    Total INTEGER NOT NULL
+)ENGINE=InnoDB;
+ALTER TABLE Pedido
+ADD CONSTRAINT pk_Pedido
+PRIMARY KEY (ID);
+
+ALTER TABLE Pedido
+ADD CONSTRAINT fk_Pedido
+FOREIGN KEY (Producto) REFERENCES Producto(ID);

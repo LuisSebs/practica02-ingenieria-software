@@ -1,0 +1,87 @@
+-- Tabla Cliente
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (1, 'Laura', '8234 Rigney Drive', 'Reynosa', 'México', '19486', 'laura@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (2, 'Pedro', '72 Corscot Hill', 'Ciudad Juárez', 'Jalisco', '13579', 'pedro@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (3, 'Maria', '08 Coolidge Circle', 'Ciudad Juárez', 'Sinaloa', '51938', 'maria@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (4, 'Valentina', '61 Di Loreto Way', 'Tuxtla Gutiérrez', 'Campeche', '43728', 'valentina@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (5, 'Daniela', '7066 Raven Plaza', 'Morelia', 'Colima', '87264', 'daniela@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (6, 'Camila', '2 Del Sol Lane', 'Ciudad Juárez', 'Morelos', '72613', 'camila@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (7, 'Sofia', '41 Mallard Junction', 'Cuernavaca', 'Guanajuato', '80246', 'sofia@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (8, 'Javier', '619 Lerdahl Plaza', 'Naucalpan', 'Baja California', '80246', 'javier@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (9, 'Miguel', '3 Eggendart Center', 'Oaxaca', 'Guanajuato', '46729', 'miguel@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (10, 'Eladio', '9911 Logan Road', 'Durango', 'Chihuahua', '61983', 'eladio@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (11, 'Ximena', '1 Reindahl Drive', 'Guadalajara', 'Campeche', '30849', 'ximena@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (12, 'Mariana', '049 Claremont Circle', 'Tijuana', 'Sinaloa', '80246', 'mariana@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (13, 'Ana', '2348 Rutledge Point', 'Ciudad Juárez', 'Puebla', '13579', 'ana@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (14, 'Juan', '71408 Anzinger Street', 'Campeche', 'Baja California Sur', '67890', 'juan@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (15, 'Lucia', '48 Sunnyside Hill', 'Chetumal', 'Tlaxcala', '51938', 'lucia@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (16, 'Fernando', '1161 Mcguire Court', 'Mazatlán', 'México', '52017', 'fernando@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (17, 'Diego', '132 Burning Wood Plaza', 'Lázaro Cárdenas', 'Baja California', '72613', 'diego@gmail.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (18, 'Hector', '905 Shoshone Point', 'Puebla', 'Baja California Sur', '19486', 'hector@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (19, 'Isabella', '69 Buhler Park', 'Querétaro', 'Coahuila', '96105', 'isabella@yahoo.com');
+INSERT INTO Cliente (ID, Nombre, Domicilio, Ciudad, Estado, CodigoPostal, email) VALUES (20, 'Carlos', '27675 Farragut Drive', 'Lázaro Cárdenas', 'Durango', '46729', 'carlos@gmail.com');
+
+-- Tabla Producto
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (1, 'Southern Comfort', 153, 'Fajita Fiesta', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (2, 'Nantucket - Kiwi Berry Cktl.', 156, 'Burrito Bonanza', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (3, 'Wine - Shiraz South Eastern', 55, 'Guacamole Grande', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (4, 'Cake - Box Window 10x10x2.5', 59, 'Quesadilla Queen', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (5, 'Apple - MacINTOsh', 91, 'Tamale Time', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (6, 'Island Oasis - Cappucino Mix', 136, 'Quesadilla Queen', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (7, 'Turkey Tenderloin Frozen', 84, 'Nachos Galore', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (8, 'Beef - Rib Roast, Capless', 34, 'Guacamole Grande', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (9, 'Neckerchief Blck', 58, 'Fajita Fiesta', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (10, 'Wine - White, Antinore Orvieto', 24, 'Enchilada Emporium', 1);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (11, 'Bandage - Flexible Neon', 171, 'Quesadilla Queen', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (12, 'Mop Head - Cotton, 24 Oz', 58, 'Burrito Bonanza', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (13, 'Cheese - Brie Roitelet', 165, 'Quesadilla Queen', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (14, 'Wine - Chenin Blanc K.w.v.', 81, 'Enchilada Emporium', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (15, 'Veal - Knuckle', 99, 'Burrito Bonanza', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (16, 'Kaffir Lime Leaves', 10, 'Quesadilla Queen', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (17, 'Pepsi - 600ml', 11, 'Fajita Fiesta', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (18, 'Bread - Roll, Italian', 94, 'Quesadilla Queen', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (19, 'Juice - Tomato, 48 Oz', 16, 'Taco Express', 0);
+INSERT INTO Producto (ID, Descripcion, Precio, Marca, Existencia) VALUES (20, 'Vinegar - White', 182, 'Guacamole Grande', 1);
+
+-- Tabla Proveedor
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (1, 'Rhyloo', 'Laura', '50 Meadow Vale Road', 'Villahermosa', 'Baja California Sur', '96103', 'rhyloo@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (2, 'Wordtune', 'Emilio', '26 Ramsey Road', 'Villahermosa', 'Nayarit', '93748', 'wordtune@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (3, 'Fiveclub', 'Laura', '67420 Center Plaza', 'Mexicali', 'Colima', '93748', 'fiveclub@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (4, 'Livefish', 'Hector', '496 Lakeland Circle', 'Monterrey', 'Hidalgo', '73591', 'livefish@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (5, 'Babbleblab', 'Camila', '535 Dorton Court', 'Naucalpan', 'Colima', '61983', 'babbleblab@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (6, 'Twitterlist', 'Luis', '066 Dahle Parkway', 'Culiacán', 'Sinaloa', '65982', 'twitterlist@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (7, 'Gabtune', 'Diego', '9170 Lighthouse Bay Drive', 'Tijuana', 'Michoacán', '12345', 'gabtune@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (8, 'Fanoodle', 'Ximena', '78 Bunting Road', 'Querétaro', 'Chihuahua', '09876', 'fanoodle@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (9, 'Jayo', 'Javier', '89370 Waywood Alley', 'Ciudad de Mexico', 'Yucatán', '37492', 'jayo@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (10, 'Browsezoom', 'Natalia', '269 Corry Junction', 'Monterrey', 'Chihuahua', '96103', 'browsezoom@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (11, 'Tekfly', 'Miguel', '77585 Burning Wood Center', 'Mazatlán', 'Veracruz', '97531', 'tekfly@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (12, 'Tazzy', 'Victoria', '70571 Stuart Circle', 'Villahermosa', 'Durango', '52017', 'tazzy@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (13, 'Plambee', 'Catalina', '20225 La Follette Alley', 'Reynosa', 'Quintana Roo', '50694', 'plambee@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (14, 'Zazio', 'Valentina', '26040 Summit Park', 'Aguascalientes', 'Tabasco', '86420', 'zazio@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (15, 'Oba', 'Carlos', '8 Stone Corner Alley', 'Culiacán', 'Nuevo León', '67890', 'oba@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (16, 'Skidoo', 'Laura', '48 Logan Road', 'Cancún', 'México', '28465', 'skidoo@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (17, 'Brightdog', 'Fernando', '103 Loeprich Plaza', 'Naucalpan', 'Chiapas', '86420', 'brightdog@gmail.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (18, 'Trudoo', 'Isabella', '43 Gerald Parkway', 'Ciudad Juárez', 'Michoacán', '52017', 'trudoo@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (19, 'Yakidoo', 'Diego', '8 Messerschmidt Place', 'Hermosillo', 'Nuevo León', '40857', 'yakidoo@yahoo.com');
+INSERT INTO Proveedor (ID, Empresa, NombreContacto, Direccion, Ciudad, Estado, CodigoPostal, Email) VALUES (20, 'Cogilith', 'Luis', '3 Paget Trail', 'Ciudad Juárez', 'Durango', '12345', 'cogilith@gmail.com');
+
+-- Tabla Pedido
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (1, 'Lucía', '2023-06-12', 8, 17, 34, 578);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (2, 'Sofía', '2023-05-26', 19, 1, 16, 16);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (3, 'Javier', '2023-08-27', 9, 10, 58, 580);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (4, 'Isabella', '2023-08-09', 7, 10, 84, 840);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (5, 'Sofía', '2023-04-29', 10, 6, 24, 144);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (6, 'Carlos', '2023-04-20', 2, 2, 156, 312);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (7, 'Camila', '2022-10-08', 19, 8, 16, 128);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (8, 'Lucía', '2022-09-30', 1, 2, 153, 306);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (9, 'Lucía', '2023-06-09', 6, 12, 136, 1632);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (10, 'Lucía', '2022-10-01', 20, 10, 182, 1820);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (11, 'Sofía', '2023-01-07', 1, 3, 153, 459);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (12, 'Javier', '2023-08-09', 14, 9, 81, 729);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (13, 'Miguel', '2023-05-18', 4, 13, 59, 767);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (14, 'Camila', '2022-10-29', 2, 11, 156, 1716);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (15, 'Carlos', '2023-09-02', 14, 8, 81, 648);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (16, 'Miguel', '2023-06-27', 8, 10, 34, 340);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (17, 'Javier', '2022-11-29', 7, 8, 84, 672);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (18, 'Isabella', '2023-03-07', 5, 7, 91, 637);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (19, 'Isabella', '2023-07-06', 19, 8, 16, 128);
+INSERT INTO Pedido (ID, Vendedor, Fecha, Producto, Cantidad, Precio, Total) VALUES (20, 'Valentina', '2023-07-24', 2, 16, 156, 2496);
