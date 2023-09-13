@@ -1,6 +1,6 @@
 import mysql.connector
 from mysql.connector import errorcode
-import tablas as t
+import imports.tablas as t
 from imports.inserciones import lista_inserciones
 
 DB_NAME = "ejerciciouno"
